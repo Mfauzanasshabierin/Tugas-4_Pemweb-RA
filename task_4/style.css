@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background: #f2f2f2;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="file"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; 
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; 
+}
+
+/* Styling untuk radio dan checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 5px; 
+}
+
+/* Menambahkan jarak antar label dan input */
+label {
+    margin-right: 10px; 
+}
+
+/* Styling untuk div yang berisi input radio */
+div {
+    margin-bottom: 15px; 
+}
+
+/* Styling untuk label konfirmasi */
+.confirmation-label {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 15px; 
+}
+
+/* Styling untuk optgroup */
+optgroup {
+    font-weight: bold; 
+}
